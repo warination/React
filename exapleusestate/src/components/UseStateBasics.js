@@ -18,6 +18,8 @@ const UseStateBasics = () => {
         <div className='container'>
             <h1>{text}</h1>
             <button className='btn' onClick={handleChange}>change text</button>
+        <hr/>
+
         </div>
     )
 }

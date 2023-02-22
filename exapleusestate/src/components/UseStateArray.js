@@ -28,6 +28,8 @@ const UseStateArray = () => {
             <button className='btn' onClick={() => setPeople(data)}>Reset</button>
 
             </div>
+        <hr/>
+
         </>
     )
 }
