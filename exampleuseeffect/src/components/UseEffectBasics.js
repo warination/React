@@ -5,7 +5,10 @@ const UseEffectBasics = () => {
     const [value, setValue] = useState(0);
 
     useEffect(()=>{
-        document.title = `new message(${value})`
+        if(value>0){
+
+            document.title = `new message(${value})`
+        }
     }, [value])
     return (
         <div className='container'>
